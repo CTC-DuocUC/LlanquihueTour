@@ -1,8 +1,6 @@
 package model;
 
-/**
- * Clase que representa la direccion de una persona.
- */
+// Clase que representa la dirección de una persona.
 public class Direccion {
 
     private String calle;
