@@ -16,12 +16,12 @@ public class GuiaTuristico extends Persona {
 
 
 // Constructor con todos los datos del guía.
-// @param nombre nombre del guía.
-// @param rut RUT del guía.
-// @param email correo de contacto.
-// @param dirección domicilio del guía.
-// @param especialidad tipo de tour que realiza.
-// @param aniosExperiencia cuanto tiempo lleva en el rubro.
+// @param nombre = nombre del guía.
+// @param rut = RUT del guía.
+// @param email = correo de contacto.
+// @param dirección = domicilio del guía.
+// @param especialidad = tipo de tour que realiza.
+// @param aniosExperiencia = cuanto tiempo lleva en el rubro.
 
     public GuiaTuristico(String nombre, String rut, String email, Direccion direccion,
                          String especialidad, int aniosExperiencia) {
