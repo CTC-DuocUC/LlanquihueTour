@@ -1,9 +1,8 @@
 package model;
 
-/**
- * Representa a un guia turistico de Llanquihue Tour.
- * Hereda los datos generales de Persona y agrega su especialidad.
- */
+// Representa a un guía turístico de Llanquihue Tour.
+// Hereda los datos generales de Persona.java y agrega su especialidad.
+ 
 public class GuiaTuristico extends Persona {
 
     private String especialidad;
@@ -15,15 +14,15 @@ public class GuiaTuristico extends Persona {
         aniosExperiencia = 0;
     }
 
-    /**
-     * Constructor con todos los datos del guia.
-     * @param nombre nombre del guia
-     * @param rut RUT del guia
-     * @param email correo de contacto
-     * @param direccion domicilio del guia
-     * @param especialidad tipo de tour que realiza
-     * @param aniosExperiencia cuanto tiempo lleva en el rubro
-     */
+
+// Constructor con todos los datos del guía.
+// @param nombre nombre del guía.
+// @param rut RUT del guía.
+// @param email correo de contacto.
+// @param dirección domicilio del guía.
+// @param especialidad tipo de tour que realiza.
+// @param aniosExperiencia cuanto tiempo lleva en el rubro.
+
     public GuiaTuristico(String nombre, String rut, String email, Direccion direccion,
                          String especialidad, int aniosExperiencia) {
         super(nombre, rut, email, direccion);
