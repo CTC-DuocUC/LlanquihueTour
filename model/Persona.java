@@ -1,9 +1,8 @@
 package model;
 
-/**
- * Clase base que representa a una persona vinculada a Llanquihue Tour.
- * Contiene los datos generales de cualquier persona del sistema.
- */
+// Clase base que representa a una persona vinculada a Llanquihue Tour.
+// Contiene los datos generales de cualquier persona del sistema.
+
 public class Persona {
 
     private String nombre;
@@ -18,13 +17,12 @@ public class Persona {
         direccion = new Direccion();
     }
 
-    /**
-     * Constructor con todos los datos de la persona.
-     * @param nombre nombre completo
-     * @param rut RUT de la persona
-     * @param email correo de contacto
-     * @param direccion domicilio registrado
-     */
+// Constructor con todos los datos de la persona.
+// @param nombre - nombre completo
+// @param rut - RUT de la persona
+// @param email - correo de contacto
+// @param direccion - domicilio registrado
+
     public Persona(String nombre, String rut, String email, Direccion direccion) {
         this.nombre = nombre;
         this.rut = rut;
