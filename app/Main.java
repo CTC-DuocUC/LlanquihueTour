@@ -11,7 +11,7 @@ public class Main {
         System.out.println("===== SISTEMA LLANQUIHUE TOUR =====");
         System.out.println();
 
-        // creo la direccion primero y luego el cliente
+        // Creo la dirección primero y luego el cliente.
         Direccion dir1 = new Direccion("Av. Fuchslocher", 1230, "Llanquihue", "Los Lagos");
         Persona cliente1 = new Persona("Carlos Mendoza", "15.234.567-8", "carlos.mendoza@correo.cl", dir1);
 
