@@ -18,10 +18,10 @@ public class Persona {
     }
 
 // Constructor con todos los datos de la persona.
-// @param nombre - nombre completo
-// @param rut - RUT de la persona
-// @param email - correo de contacto
-// @param direccion - domicilio registrado
+// @param nombre = nombre completo
+// @param rut = RUT de la persona
+// @param email = correo de contacto
+// @param direccion = domicilio registrado
 
     public Persona(String nombre, String rut, String email, Direccion direccion) {
         this.nombre = nombre;
