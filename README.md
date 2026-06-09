@@ -49,6 +49,6 @@ git clone https://github.com/CTC-DuocUC/LlanquihueTour.git
 ---
 
 **Repositorio GitHub:** https://github.com/CTC-DuocUC/LlanquihueTour/
-**Fecha de entrega:** 08/06/2025
+**Fecha de entrega:** 08/06/2026
 
 ---
